@@ -14,7 +14,7 @@ urlpatterns = [
     path('collections/', views.collections, name="collections"),
     path('contact/', views.contact, name="contact"),
 
-    path('collections_nav/', views.collections_nav, name="collections_nav"),
+    path('collection_nav/', views.collection_nav, name="collection_nav"),
     path('spring/', views.spring, name='spring'),
     path('summer/', views.summer, name='summer'),
     path('fall/', views.fall, name='fall'),

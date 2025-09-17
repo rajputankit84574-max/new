@@ -34,5 +34,5 @@ def party(request):
     return render(request, 'party.html')
 
 
-def collections_nav(request):
-    return render(request, 'collections_nav.html')
+def collection_nav(request):
+    return render(request, 'collection_nav.html')
